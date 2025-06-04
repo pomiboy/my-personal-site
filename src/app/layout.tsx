@@ -1,6 +1,7 @@
 import Footer from "@/components/custom/Footer";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
 
 const pretendard = localFont({
@@ -46,6 +47,7 @@ export default function RootLayout({
       >
         {children}
         <Footer />
+        <Toaster expand={true} />
       </body>
     </html>
   );
