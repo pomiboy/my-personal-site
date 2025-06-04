@@ -1,3 +1,4 @@
+import BPT from "@/components/custom/BPT";
 import LinkWithIcon from "@/components/custom/LinkWIthIcon";
 
 export default function WorkExperience() {
@@ -18,19 +19,16 @@ export default function WorkExperience() {
           </p>
         </div>
         <div className="flex-1 flex-col space-y-[5px] text-[14px]">
-          <p>
-            - AI 컴패니언 서비스 "프로젝트 디토" 어플리케이션 프론트엔드 개발
-            전담
-          </p>
-          <p>- 개발 시작~배포까지 전과정 참여</p>
-          <p>
-            - 2024.12 출시 이후 15번의 크고 작은 업데이트 진행, 현재까지 적극
-            운영 중
-          </p>
-          <p>- 매일의 Scrum과 2주 단위의 Sprint로 task 진행</p>
-          <div className="flex items-center">
-            <span>-&nbsp;</span>
-            {"  "}
+          <BPT>
+            AI 컴패니언 서비스 "프로젝트 디토" 어플리케이션 프론트엔드 개발 전담
+          </BPT>
+          <BPT>개발 시작~배포까지 전과정 참여</BPT>
+          <BPT>
+            2024.12 출시 이후 15번의 크고 작은 업데이트 진행, 현재까지 적극 운영
+            중
+          </BPT>
+          <BPT>매일의 Scrum과 2주 단위의 Sprint로 task 진행</BPT>
+          <BPT>
             <LinkWithIcon
               text="App Store"
               link=" https://apps.apple.com/app/id6738158392"
@@ -44,7 +42,7 @@ export default function WorkExperience() {
             />
             &nbsp;
             <span>출시</span>
-          </div>
+          </BPT>
         </div>
       </div>
     </div>

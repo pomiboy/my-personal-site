@@ -1,4 +1,5 @@
 import BPT from "@/components/custom/BPT";
+import LinkWithIcon from "@/components/custom/LinkWIthIcon";
 
 export default function Education() {
   return (
@@ -12,7 +13,15 @@ export default function Education() {
           </p>
         </div>
         <div className="flex-1 flex-col space-y-[5px] text-[14px]">
-          <BPT>소프트웨어기술벤처학과 이중전공</BPT>
+          <BPT>
+            <LinkWithIcon
+              text="소프트웨어기술벤처학과"
+              link="https://info.korea.ac.kr/info/under/sw_intro.do"
+              textClassName="text-[14px] font-medium"
+            />
+            &nbsp;
+            <span>이중전공</span>
+          </BPT>
           <div className="pl-[15px]">
             <BPT>소프트웨어공학, 운영체제, 자료구조, 알고리즘 등 수강</BPT>
           </div>

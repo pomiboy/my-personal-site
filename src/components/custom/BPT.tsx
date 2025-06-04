@@ -10,7 +10,7 @@ export default function BPT({ children }: Props) {
   return (
     <div className="flex gap-[5px]">
       <div className="rounded-full size-[3px] bg-black shrink-0 mt-[8px]" />
-      <p className="text-[14px]">{children}</p>
+      <p className="text-[14px] flex">{children}</p>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import BPT from "@/components/custom/BPT";
+import LinkWithIcon from "@/components/custom/LinkWIthIcon";
 
 export default function Activities() {
   return (
@@ -6,7 +7,11 @@ export default function Activities() {
       <h1 className="text-[22px] font-semibold mb-[30px]">Activities</h1>
       <div className="flex mb-[40px]">
         <div className="basis-[280px] flex flex-col">
-          <p className="text-[18px] font-medium">피로그래밍</p>
+          <LinkWithIcon
+            text="피로그래밍"
+            textClassName="text-[18px] font-medium"
+            link="https://pirogramming.com"
+          />
           <p className="text-[14px] mt-[7px] text-[#616161]">
             대학생 연합 웹개발 동아리
             <br />
