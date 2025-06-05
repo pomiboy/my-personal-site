@@ -2,7 +2,7 @@ import IconRow from "@/components/custom/IconRow";
 import MenuBar from "@/components/custom/MenuBar";
 import Image from "next/image";
 import { ReactNode } from "react";
-import profileImage from "../../../public/images/profile-image.png";
+import profileImage from "../../../../public/images/profile-image.png";
 
 export default function Home({ children }: { children: ReactNode }) {
   return (

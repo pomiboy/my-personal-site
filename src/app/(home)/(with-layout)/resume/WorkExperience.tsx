@@ -1,5 +1,6 @@
 import BPT from "@/components/custom/BPT";
 import LinkWithIcon from "@/components/custom/LinkWIthIcon";
+import { Links } from "@/constants/links";
 
 export default function WorkExperience() {
   return (
@@ -31,13 +32,13 @@ export default function WorkExperience() {
           <BPT>
             <LinkWithIcon
               text="App Store"
-              link=" https://apps.apple.com/app/id6738158392"
+              link={Links.DITTO_APP_STORE}
               textClassName="text-[14px] font-medium"
             />
             ,&nbsp;
             <LinkWithIcon
               text="Play Store"
-              link="https://play.google.com/store/apps/details?id=com.pygmalion.proj_july&hl=ko"
+              link={Links.DITTO_PLAY_STORE}
               textClassName="text-[14px] font-medium"
             />
             &nbsp;
