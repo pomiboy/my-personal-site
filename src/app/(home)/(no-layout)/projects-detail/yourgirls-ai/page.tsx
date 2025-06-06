@@ -14,23 +14,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import FrontendRoles from "./FrontendRoles";
 import DesignRoles from "./DesignRoles";
 
-export default function ProjectDittoScreen() {
+export default function YourgirlsAiScreen() {
   const [pressedRole, setPressedRole] = useState<
     "frontend" | "design" | "none"
   >("none");
-
-  const carouselImages = [
-    "/images/project-ditto/pd1.png",
-    "/images/project-ditto/pd2.png",
-    "/images/project-ditto/pd3.png",
-    "/images/project-ditto/pd4.png",
-    "/images/project-ditto/pd5.png",
-    "/images/project-ditto/pd6.png",
-  ];
-
-  const cards = carouselImages.map((imagePath, index) => (
-    <Card key={index} src={imagePath} alt={`Image ${index + 1}`} />
-  ));
 
   return (
     <div className="h-full w-[700px] flex flex-col">
@@ -172,12 +159,6 @@ export default function ProjectDittoScreen() {
                 </motion.div>
               )}
             </AnimatePresence>
-          </div>
-          <div className="flex flex-col gap-[15px] mt-[20px]">
-            <div className="text-[16px] font-semibold">상세 화면</div>
-            <div>
-              <Carousel items={cards} />
-            </div>
           </div>
         </div>
       </div>

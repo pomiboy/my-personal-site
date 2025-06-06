@@ -7,4 +7,7 @@ export const Links = {
     "https://play.google.com/store/apps/details?id=com.pygmalion.proj_july&hl=ko",
   DITTO_GITHUB: "https://github.com/pomiboy/project-ditto-client",
   YOURGIRLS_GITHUB: "https://github.com/pomiboy/yourgirls-ai-client",
+  PIROAPP_APPSTORE:
+    "https://apps.apple.com/kr/app/%ED%94%BC%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/id6469772343",
+  PIROAPP_GITHUB: "https://github.com/Pironeer-APP",
 };
