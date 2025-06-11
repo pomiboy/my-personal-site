@@ -8,11 +8,9 @@ export default function PiroHomepage() {
         <p className="text-[13px] text-[#616161]">
           피로니어 | 2023.09 ~ 2023.10
         </p>
-        <LinkWithIcon
-          text="피로그래밍 공식 홈페이지 리뉴얼"
-          link="https://www.pygmalion.team/"
-          textClassName="text-[18px] font-medium"
-        />
+        <p className="text-[18px] font-medium">
+          피로그래밍 공식 홈페이지 리뉴얼
+        </p>
         <div className="flex flex-col mt-[7px] text-[13px] text-[#616161]">
           <p>팀 구성 : FE 2명 / BE 1명</p>
           <p>본인 기여율 30%</p>

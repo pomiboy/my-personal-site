@@ -10,8 +10,9 @@ export default function PiroApp() {
         </p>
         <LinkWithIcon
           text="피로그래밍 공식 어플리케이션 개발"
-          link="https://www.pygmalion.team/"
+          link="/projects-detail/piro-app"
           textClassName="text-[18px] font-medium"
+          blank={false}
         />
         <div className="flex flex-col mt-[7px] text-[13px] text-[#616161]">
           <p>팀 구성 : FE 2명 / BE 3명</p>

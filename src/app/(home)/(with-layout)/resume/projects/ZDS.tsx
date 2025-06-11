@@ -10,8 +10,9 @@ export default function ZDS() {
         </p>
         <LinkWithIcon
           text="자체 디자인 시스템 구축"
-          link="https://www.pygmalion.team/"
+          link="/projects-detail/project-ditto"
           textClassName="text-[18px] font-medium"
+          blank={false}
         />
         <div className="flex flex-col mt-[7px] text-[13px] text-[#616161]">
           <p>본인 기여율 100%</p>

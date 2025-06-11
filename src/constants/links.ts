@@ -9,6 +9,6 @@ export const Links = {
   YOURGIRLS_GITHUB: "https://github.com/pomiboy/yourgirls-ai-client",
   PIROAPP_APPSTORE:
     "https://apps.apple.com/kr/app/%ED%94%BC%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/id6469772343",
-  PIROAPP_GITHUB: "https://github.com/Pironeer-APP",
+  PIROAPP_GITHUB: "https://github.com/Pironeer-APP/client",
   PIROT_GITHUB: "https://github.com/Piro-Pirot/django-pirot",
 };

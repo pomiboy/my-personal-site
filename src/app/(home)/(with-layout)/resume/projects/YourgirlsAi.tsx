@@ -10,8 +10,9 @@ export default function YourgirlsAi() {
         </p>
         <LinkWithIcon
           text="yourgirls.ai 개발 및 운영"
-          link="https://www.pygmalion.team/"
+          link="/projects-detail/yourgirls-ai"
           textClassName="text-[18px] font-medium"
+          blank={false}
         />
         <div className="flex flex-col mt-[7px] text-[13px] text-[#616161]">
           <p>팀 구성 : FE 1명 / BE 2명</p>

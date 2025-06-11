@@ -10,8 +10,9 @@ export default function ProjectDitto() {
         </p>
         <LinkWithIcon
           text="프로젝트 디토 개발 및 출시/운영"
-          link="https://www.pygmalion.team/"
+          link="/projects-detail/project-ditto"
           textClassName="text-[18px] font-medium"
+          blank={false}
         />
         <div className="flex flex-col mt-[7px] text-[13px] text-[#616161]">
           <p>팀구성 : FE 1명 / BE 1명</p>

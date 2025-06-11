@@ -10,8 +10,9 @@ export default function Pirot() {
         </p>
         <LinkWithIcon
           text="피롯 (Pirot)"
-          link="https://www.pygmalion.team/"
+          link="/projects-detail/pirot"
           textClassName="text-[18px] font-medium"
+          blank={false}
         />
         <div className="flex flex-col mt-[7px] text-[13px] text-[#616161]">
           <p>팀 구성 : FE 1명 / BE 3명</p>
