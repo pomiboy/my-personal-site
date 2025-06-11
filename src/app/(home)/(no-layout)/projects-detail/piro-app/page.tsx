@@ -18,6 +18,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import LeaderRoles from "./LeaderRoles";
 import FrontendRoles from "./FrontendRoles";
 import DesignRoles from "./DesignRoles";
+import CPT from "@/components/custom/CPT";
+import Divider from "@/components/custom/Divider";
 
 export default function PiroAppScreen() {
   const [pressedRole, setPressedRole] = useState<
@@ -71,7 +73,7 @@ export default function PiroAppScreen() {
           <ProjectDetailItem label="기여율" content="40%" />
           <ProjectDetailItem
             label="사용 기술 스택"
-            content="React Native, TypeScript, Expo, Style-Components, Figma"
+            content="React Native, Expo, Style-Components, Figma"
           />
           <ProjectDetailItem
             label="프로젝트 설명"
@@ -94,6 +96,36 @@ export default function PiroAppScreen() {
                     “매우 편리하다” 등 긍정적 피드백 획득
                   </span>
                 </BPT>
+              </div>
+            }
+          />
+          <ProjectDetailItem
+            label="제공 기능"
+            content={
+              <div className="flex flex-col gap-[5px]">
+                <CPT textClassName="text-[16px]">
+                  출석코드 입력시스템으로 실시간으로 출결을 관리하고 지금까지의
+                  출결을 한 눈에 보기{" "}
+                </CPT>
+                <CPT textClassName="text-[16px]">
+                  앞으로의 세션들의 장소 및 시간 확인
+                </CPT>
+                <Divider margin="my-[10px]" />
+                <CPT textClassName="text-[16px]">
+                  전체, 세션, 과제, 기타 공지 확인 가능
+                </CPT>
+                <CPT textClassName="text-[16px]">공지 별 카테고리화</CPT>
+                <Divider margin="my-[10px]" />
+                <CPT textClassName="text-[16px]">
+                  과제 제출까지 남은 시간을 타이머로 제공
+                </CPT>
+                <CPT textClassName="text-[16px]">
+                  과제 채점 결과 실시간 확인
+                </CPT>
+                <Divider margin="my-[10px]" />
+                <CPT textClassName="text-[16px]">잔여 보증금 실시간 확인</CPT>
+                <CPT textClassName="text-[16px]">보증금 차감 시 사유 확인</CPT>
+                <CPT textClassName="text-[16px]">보증금 방어권 앱 내 사용</CPT>
               </div>
             }
           />
@@ -179,7 +211,6 @@ export default function PiroAppScreen() {
                     duration: 0.3,
                     ease: "easeInOut",
                   }}
-                  style={{ overflow: "hidden" }}
                 >
                   <LeaderRoles />
                 </motion.div>
@@ -194,7 +225,6 @@ export default function PiroAppScreen() {
                     duration: 0.3,
                     ease: "easeInOut",
                   }}
-                  style={{ overflow: "hidden" }}
                 >
                   <FrontendRoles />
                 </motion.div>
@@ -209,7 +239,6 @@ export default function PiroAppScreen() {
                     duration: 0.3,
                     ease: "easeInOut",
                   }}
-                  style={{ overflow: "hidden" }}
                 >
                   <DesignRoles />
                 </motion.div>

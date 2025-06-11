@@ -14,7 +14,7 @@ export default function BPT({
   return (
     <div className="flex gap-[5px]">
       <div className="rounded-full size-[3px] bg-black shrink-0 mt-[8px]" />
-      <p className={`${textClassName}`}>{children}</p>
+      <div className={`${textClassName}`}>{children}</div>
     </div>
   );
 }

@@ -55,8 +55,8 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
       >
         <div
           className={cn(
-            "flex flex-row justify-start gap-4 pl-4",
-            "mx-auto max-w-7xl"
+            "flex flex-row justify-start gap-4 pl-4"
+            // "mx-auto max-w-7xl"
           )}
         >
           {items.map((item, index) => (
@@ -73,7 +73,7 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
                 },
               }}
               key={"card" + index}
-              className="rounded-3xl last:pr-[5%] md:last:pr-[33%]"
+              className="rounded-3xl last:pr-[5%] md:last:pr-[33%] shrink-0"
             >
               {item}
             </motion.div>
@@ -104,11 +104,9 @@ export const Card = ({ src, alt = "Carousel image" }: CardProps) => {
   const [isLoading, setLoading] = useState(true);
 
   return (
-    <div className="relative z-10 w-[230px] overflow-hidden rounded-3xl border-[0.75px] border-[#616161] shadow-sm">
+    <div className="relative z-10 overflow-hidden rounded-3xl border-[0.75px] border-[#616161] shadow-sm h-[420px]">
       <img
-        className={cn(
-          "h-full w-full object-cover transition duration-300 blur-0"
-        )}
+        className={cn("size-full object-cover transition duration-300 blur-0")}
         onLoad={() => setLoading(false)}
         src={src}
         loading="lazy"

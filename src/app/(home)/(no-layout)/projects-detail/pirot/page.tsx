@@ -3,11 +3,7 @@
 import BPT from "@/components/custom/BPT";
 import GlowingBorderBox from "@/components/custom/GlowingBorderBox";
 import { Links } from "@/constants/links";
-import {
-  AppStoreLogoIcon,
-  CaretRightIcon,
-  GithubLogoIcon,
-} from "@phosphor-icons/react";
+import { CaretRightIcon, GithubLogoIcon } from "@phosphor-icons/react";
 import Image from "next/image";
 import Link from "next/link";
 import pirotImage from "../../../../../../public/images/pirot.png";
@@ -17,9 +13,8 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import CPT from "@/components/custom/CPT";
 import Divider from "@/components/custom/Divider";
-// import LeaderRoles from "./LeaderRoles";
-// import FrontendRoles from "./FrontendRoles";
-// import DesignRoles from "./DesignRoles";
+import FrontendRoles from "./FrontendRoles";
+import DesignRoles from "./DesignRoles";
 
 export default function PirotScreen() {
   const [pressedRole, setPressedRole] = useState<
@@ -27,11 +22,10 @@ export default function PirotScreen() {
   >("none");
 
   const carouselImages = [
-    "/images/piro-app/pa1.png",
-    "/images/piro-app/pa2.png",
-    "/images/piro-app/pa3.png",
-    "/images/piro-app/pa4.png",
-    "/images/piro-app/pa5.png",
+    "/images/pirot/pr1.png",
+    "/images/pirot/pr2.png",
+    "/images/pirot/pr3.png",
+    "/images/pirot/pr4.png",
   ];
 
   const cards = carouselImages.map((imagePath, index) => (
@@ -130,7 +124,7 @@ export default function PirotScreen() {
                     </motion.div>
                   </div>
                   <p className="font-medium text-[13px]">
-                    프론트엔드 개발 역할 수행
+                    프론트엔드 개발 역할 전담
                   </p>
                 </div>
               </GlowingBorderBox>
@@ -151,7 +145,7 @@ export default function PirotScreen() {
                     </motion.div>
                   </div>
                   <p className="font-medium text-[13px]">
-                    앱 내 UI/UX 기획 및 디자인
+                    웹서비스 내 UI/UX 기획 및 디자인
                   </p>
                 </div>
               </GlowingBorderBox>
@@ -169,9 +163,8 @@ export default function PirotScreen() {
                     duration: 0.3,
                     ease: "easeInOut",
                   }}
-                  style={{ overflow: "hidden" }}
                 >
-                  {/* <FrontendRoles /> */}
+                  <FrontendRoles />
                 </motion.div>
               )}
               {pressedRole === "design" && (
@@ -184,9 +177,8 @@ export default function PirotScreen() {
                     duration: 0.3,
                     ease: "easeInOut",
                   }}
-                  style={{ overflow: "hidden" }}
                 >
-                  {/* <DesignRoles /> */}
+                  <DesignRoles />
                 </motion.div>
               )}
             </AnimatePresence>

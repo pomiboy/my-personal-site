@@ -7,38 +7,58 @@ export default function FrontendRoles() {
       <GlowingBorderBox>
         <div className="flex flex-col">
           <div className="font-bold text-[15px] mb-[10px] flex justify-between items-center">
-            <p>개발 스택 결정</p>
+            <p>화면 구현</p>
           </div>
-          <p className="font-medium text-[13px]">React Native + Expo</p>
+          <div className="font-medium text-[13px]">
+            <BPT>Javascript, Django template 사용</BPT>
+            <BPT>랜딩페이지, 채팅화면 등 모든 화면 구현</BPT>
+          </div>
         </div>
       </GlowingBorderBox>
       <GlowingBorderBox>
         <div className="flex flex-col">
           <div className="font-bold text-[15px] mb-[10px] flex justify-between items-center">
-            <p>화면 구현</p>
+            <p>모바일 반응형</p>
           </div>
           <p className="font-medium text-[13px]">
-            홈, 공지, 출석 등 주요화면 구현
+            모바일, 데스크탑 모두에서의 쾌적한 사용을 위한 반응형 구현
           </p>
         </div>
       </GlowingBorderBox>
       <GlowingBorderBox>
         <div className="flex flex-col">
           <div className="font-bold text-[15px] mb-[10px] flex justify-between items-center">
-            <p>일관된 UI 구현</p>
+            <p>마크다운 채팅 스티일링</p>
+          </div>
+          <p className="font-medium text-[13px]">
+            django-mardownx 라이브러리를 활용하여 채팅 입력값을 마크다운
+            형식으로 변환하도록 구현
+          </p>
+        </div>
+      </GlowingBorderBox>
+      <GlowingBorderBox>
+        <div className="flex flex-col">
+          <div className="font-bold text-[15px] mb-[10px] flex justify-between items-center">
+            <p>코드입력창</p>
           </div>
           <div className="font-medium text-[13px]">
-            Styled-Components를 사용하여 통일성있는 UI 구축
+            <BPT>
+              Microsoft의 monaco-editor 라이브러리를 활용하여 코드입력창 구현
+            </BPT>
+            <BPT>
+              코드입력창에 코드를 입력한 후 전송을 누르면 코드 레이아웃을
+              유지하며 채팅이 전송됨
+            </BPT>
           </div>
         </div>
       </GlowingBorderBox>
       <GlowingBorderBox>
         <div className="flex flex-col">
           <div className="font-bold text-[15px] mb-[10px] flex justify-between items-center">
-            <p>RESTful API</p>
+            <p>채팅</p>
           </div>
           <div className="font-medium text-[13px]">
-            Axios를 활용해 API를 RESTful하게 연동
+            socket.io를 활용하여 websocket 기반 채팅 구현
           </div>
         </div>
       </GlowingBorderBox>
@@ -59,16 +79,6 @@ export default function FrontendRoles() {
               체크
             </BPT>
           </div>
-        </div>
-      </GlowingBorderBox>
-      <GlowingBorderBox>
-        <div className="flex flex-col">
-          <div className="font-bold text-[15px] mb-[10px] flex justify-between items-center">
-            <p>Context API</p>
-          </div>
-          <p className="font-medium text-[13px]">
-            프로젝트 상태관리를 위해 Context API 활용 (외부 라이브러리 사용 X)
-          </p>
         </div>
       </GlowingBorderBox>
     </div>

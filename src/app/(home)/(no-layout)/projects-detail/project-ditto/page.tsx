@@ -112,15 +112,15 @@ export default function ProjectDittoScreen() {
           <div className="flex flex-col gap-[15px] mt-[20px]">
             <div className="text-[16px] font-semibold">수행한 역할</div>
             <div className="flex gap-[15px]">
-              <GlowingBorderBox>
-                <div
-                  className="flex flex-col cursor-pointer"
-                  onClick={() =>
-                    setPressedRole(
-                      pressedRole === "frontend" ? "none" : "frontend"
-                    )
-                  }
-                >
+              <GlowingBorderBox
+                pointer
+                onClick={() =>
+                  setPressedRole(
+                    pressedRole === "frontend" ? "none" : "frontend"
+                  )
+                }
+              >
+                <div className="flex flex-col">
                   <div className="font-bold text-[15px] mb-[10px] flex justify-between items-center">
                     <p>프론트엔드 개발 전담</p>
                     <motion.div
@@ -136,13 +136,13 @@ export default function ProjectDittoScreen() {
                   </p>
                 </div>
               </GlowingBorderBox>
-              <GlowingBorderBox>
-                <div
-                  className="flex flex-col cursor-pointer"
-                  onClick={() =>
-                    setPressedRole(pressedRole === "design" ? "none" : "design")
-                  }
-                >
+              <GlowingBorderBox
+                pointer
+                onClick={() =>
+                  setPressedRole(pressedRole === "design" ? "none" : "design")
+                }
+              >
+                <div className="flex flex-col">
                   <div className="font-bold text-[15px] mb-[10px] flex justify-between items-center">
                     <p>디자인</p>
                     <motion.div
@@ -172,7 +172,6 @@ export default function ProjectDittoScreen() {
                     duration: 0.3,
                     ease: "easeInOut",
                   }}
-                  style={{ overflow: "hidden" }}
                 >
                   <FrontendRoles />
                 </motion.div>
@@ -187,7 +186,6 @@ export default function ProjectDittoScreen() {
                     duration: 0.3,
                     ease: "easeInOut",
                   }}
-                  style={{ overflow: "hidden" }}
                 >
                   <DesignRoles />
                 </motion.div>

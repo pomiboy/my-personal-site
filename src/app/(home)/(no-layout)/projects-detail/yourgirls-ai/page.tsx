@@ -138,7 +138,6 @@ export default function YourgirlsAiScreen() {
                     duration: 0.3,
                     ease: "easeInOut",
                   }}
-                  style={{ overflow: "hidden" }}
                 >
                   <FrontendRoles />
                 </motion.div>
@@ -153,7 +152,6 @@ export default function YourgirlsAiScreen() {
                     duration: 0.3,
                     ease: "easeInOut",
                   }}
-                  style={{ overflow: "hidden" }}
                 >
                   <DesignRoles />
                 </motion.div>
