@@ -24,7 +24,7 @@ export default function YourgirlsAi() {
             <br />
             Vercel, Tailwind CSS,
             <br />
-            Styled-Components, Dexie,
+            Styled-Components, localForage,
             <br />
             Stable Diffusion
           </p>
@@ -60,7 +60,11 @@ export default function YourgirlsAi() {
           Replacement(HMR) 속도 향상으로 개발 생산성 증대
         </BPT>
         <BPT>
-          Dexie 기반 IndexedDB 캐싱으로 이미지 렌더링 최적화 및 네트워크 트래픽
+          <LinkWithIcon
+            text="localForage"
+            link="https://github.com/localForage/localForage"
+          />
+          &nbsp; 기반 IndexedDB 캐싱으로 이미지 렌더링 최적화 및 네트워크 트래픽
           감소
         </BPT>
       </div>
