@@ -17,7 +17,7 @@ export default function CPT({ children, textClassName }: Props) {
         color="#00c817"
         className="shrink-0 relative top-[1px]"
       />
-      <p className={`${textClassName}`}>{children}</p>
+      <div className={`${textClassName}`}>{children}</div>
     </div>
   );
 }
