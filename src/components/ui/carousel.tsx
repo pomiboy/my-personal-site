@@ -1,11 +1,11 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { ReactNode, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { motion } from "motion/react";
 import { ArrowLeftIcon, ArrowRightIcon } from "@phosphor-icons/react";
 
 interface CarouselProps {
-  items: React.ReactNode;
+  items: React.ReactNode[];
   initialScroll?: number;
 }
 
@@ -53,31 +53,27 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
         ref={carouselRef}
         onScroll={checkScrollability}
       >
-        <div
-          className={cn(
-            "flex flex-row justify-start gap-4 pl-4"
-            // "mx-auto max-w-7xl"
-          )}
-        >
-          {items.map((item, index) => (
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{
-                opacity: 1,
-                y: 0,
-                transition: {
-                  duration: 0.5,
-                  delay: 0.2 * index,
-                  ease: "easeOut",
-                  once: true,
-                },
-              }}
-              key={"card" + index}
-              className="rounded-3xl last:pr-[5%] md:last:pr-[33%] shrink-0"
-            >
-              {item}
-            </motion.div>
-          ))}
+        <div className={cn("flex flex-row justify-start gap-4 pl-4")}>
+          {items &&
+            items.map((item: ReactNode, index: number) => (
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{
+                  opacity: 1,
+                  y: 0,
+                  transition: {
+                    duration: 0.5,
+                    delay: 0.2 * index,
+                    ease: "easeOut",
+                    once: true,
+                  },
+                }}
+                key={"card" + index}
+                className="rounded-3xl last:pr-[5%] md:last:pr-[33%] shrink-0"
+              >
+                {item}
+              </motion.div>
+            ))}
         </div>
       </div>
       <div className="mr-10 flex justify-end gap-2">
