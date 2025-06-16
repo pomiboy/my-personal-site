@@ -64,7 +64,7 @@ export default function ActivitiesScreen() {
               피로니어
             </div>
             <div className="text-[15px] mb-[5px] font-medium text-[#616161]">
-              피로그래밍 산하 개발팀
+              피로그래밍 운영진 산하 개발팀
             </div>
             <div className="text-[15px] font-medium text-[#616161]">
               2023.09 ~ 2023.12
