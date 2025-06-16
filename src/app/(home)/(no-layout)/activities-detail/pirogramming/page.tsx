@@ -232,7 +232,7 @@ export default function PirogrammingScreen() {
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-all duration-200 flex items-end">
                 <div className="p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-200">
                   <h3 className="text-lg font-semibold">신규 기수 명찰</h3>
-                  <p className="text-sm opacity-90">직접 새롭게 디자인</p>
+                  <p className="text-sm opacity-90">직접 새롭게 디자인 진행</p>
                 </div>
               </div>
             </div>
