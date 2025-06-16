@@ -1,6 +1,3 @@
-// bullet porint text
-
-import { DotIcon } from "@phosphor-icons/react";
 import { ReactNode } from "react";
 
 export interface Props {

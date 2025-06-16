@@ -17,7 +17,8 @@ export default function IconRow() {
     try {
       navigator.clipboard.writeText(text);
       toast.success("Copied!");
-    } catch (err) {
+    } catch (error) {
+      console.log(error);
       toast.error("Copy failed.");
     }
   };

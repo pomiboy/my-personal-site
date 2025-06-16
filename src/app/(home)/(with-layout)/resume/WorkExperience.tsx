@@ -21,7 +21,8 @@ export default function WorkExperience() {
         </div>
         <div className="flex-1 flex-col space-y-[5px] text-[14px]">
           <BPT>
-            AI 컴패니언 서비스 "프로젝트 디토" 어플리케이션 프론트엔드 개발 전담
+            AI 컴패니언 서비스 &quot;프로젝트 디토&quot; 어플리케이션 프론트엔드
+            개발 전담
           </BPT>
           <BPT>개발 시작~배포까지 전과정 참여</BPT>
           <BPT>

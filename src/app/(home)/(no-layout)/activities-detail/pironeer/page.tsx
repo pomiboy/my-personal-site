@@ -5,7 +5,6 @@ import Image from "next/image";
 import LinkWithIcon from "@/components/custom/LinkWIthIcon";
 import ProjectDetailItem from "../../projects-detail/ProjectDetailItem";
 import CPT from "@/components/custom/CPT";
-import BPT from "@/components/custom/BPT";
 import { useState } from "react";
 import Divider from "@/components/custom/Divider";
 

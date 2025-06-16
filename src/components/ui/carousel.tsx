@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { motion } from "motion/react";
 import { ArrowLeftIcon, ArrowRightIcon } from "@phosphor-icons/react";
@@ -101,13 +101,10 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
 };
 
 export const Card = ({ src, alt = "Carousel image" }: CardProps) => {
-  const [isLoading, setLoading] = useState(true);
-
   return (
     <div className="relative z-10 overflow-hidden rounded-3xl border-[0.75px] border-[#616161] shadow-sm h-[420px]">
       <img
         className={cn("size-full object-cover transition duration-300 blur-0")}
-        onLoad={() => setLoading(false)}
         src={src}
         loading="lazy"
         decoding="async"

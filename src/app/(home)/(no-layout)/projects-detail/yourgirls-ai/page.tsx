@@ -8,7 +8,6 @@ import Image from "next/image";
 import Link from "next/link";
 import yourgirlsImage from "../../../../../../public/images/yourgirls4xx.png";
 import ProjectDetailItem from "../ProjectDetailItem";
-import { Carousel, Card } from "@/components/ui/carousel";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import FrontendRoles from "./FrontendRoles";

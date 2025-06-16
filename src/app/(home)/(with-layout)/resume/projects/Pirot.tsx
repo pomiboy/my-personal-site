@@ -23,7 +23,7 @@ export default function Pirot() {
         </div>
       </div>
       <div className="flex-1 flex-col space-y-[5px] text-[14px]">
-        <BPT>개발 동아리들을 위한 메신저 서비스 “피롯" 개발</BPT>
+        <BPT>개발 동아리들을 위한 메신저 서비스 &quot;피롯&quot; 개발</BPT>
         <BPT>서비스 디자인 주도 및 프론트엔드 개발 전담</BPT>
         <BPT>socket.io를 활용하여 메신저 시스템 개발</BPT>
         <BPT>마크다운 문법을 인식하는 입력창 구현</BPT>

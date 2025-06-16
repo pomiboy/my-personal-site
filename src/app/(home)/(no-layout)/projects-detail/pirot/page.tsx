@@ -1,6 +1,5 @@
 "use client";
 
-import BPT from "@/components/custom/BPT";
 import GlowingBorderBox from "@/components/custom/GlowingBorderBox";
 import { Links } from "@/constants/links";
 import { CaretRightIcon, GithubLogoIcon } from "@phosphor-icons/react";

@@ -7,7 +7,6 @@ import TiltCard from "@/components/custom/TiltCard";
 import pironeerImage from "../../../../../public/images/pironeer.png";
 import piroImage from "../../../../../public/images/piro.png";
 import piroNBImage from "../../../../../public/images/piroNB.png";
-import yourgirls4xImage from "../../../../../public/images/yourgirls4xx.png";
 import Link from "next/link";
 
 export default function ActivitiesScreen() {

@@ -2,7 +2,6 @@ import BPT from "@/components/custom/BPT";
 import Divider from "@/components/custom/Divider";
 import GlowingBorderBox from "@/components/custom/GlowingBorderBox";
 import LinkWithIcon from "@/components/custom/LinkWIthIcon";
-import Image from "next/image";
 
 export default function AiImageRole() {
   return (

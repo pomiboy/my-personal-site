@@ -59,8 +59,8 @@ export default function DesignSystemRole() {
                 <BPT textClassName="font-medium text-[13px]">
                   실제 유저 인터뷰 및 피드백을 통해{" "}
                   <span className="font-bold">
-                    “UI의 통일성 및 일관성 강화”, “서비스가 더 깔끔하고 사용하기
-                    쉬워짐" 등 긍정적 평가 획득
+                    &quot;UI의 통일성 및 일관성 강화&quot;, &quot;서비스가 더
+                    깔끔하고 사용하기 쉬워짐&quot; 등 긍정적 평가 획득
                   </span>
                 </BPT>
               </div>

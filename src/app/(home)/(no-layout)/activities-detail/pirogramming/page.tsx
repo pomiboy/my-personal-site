@@ -108,7 +108,7 @@ export default function PirogrammingScreen() {
               </CPT>
               <div className="flex flex-col pl-[30px] gap-2 my-1">
                 <BPT textClassName="text-[16px]">
-                  '투두메이트' 서비스 클론코딩 강의
+                  &apos;투두메이트&apos; 서비스 클론코딩 강의
                 </BPT>
               </div>
             </div>
@@ -214,7 +214,9 @@ export default function PirogrammingScreen() {
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-all duration-200 flex items-end">
                 <div className="p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-200">
                   <h3 className="text-lg font-semibold">홈커밍 데이</h3>
-                  <p className="text-sm opacity-90">3년만에 기획 및 진행하게 됨</p>
+                  <p className="text-sm opacity-90">
+                    3년만에 기획 및 진행하게 됨
+                  </p>
                 </div>
               </div>
             </div>
