@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 import { ArrowLeftIcon, ArrowRightIcon } from "@phosphor-icons/react";
 
 interface CarouselProps {
-  items: JSX.Element[];
+  items: React.ReactNode;
   initialScroll?: number;
 }
 
