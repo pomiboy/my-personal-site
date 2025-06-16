@@ -30,7 +30,7 @@ export default function ProjectDittoScreen() {
     "/images/project-ditto/pd3.png",
     "/images/project-ditto/pd4.png",
     "/images/project-ditto/pd5.png",
-    "/images/project-ditto/pd6.png",
+    "/images/project-ditto/pd6.PNG",
   ];
 
   const cards = carouselImages.map((imagePath, index) => (
