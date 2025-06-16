@@ -1,3 +1,5 @@
+"use client";
+
 import { LinkIcon } from "@phosphor-icons/react";
 import Link from "next/link";
 

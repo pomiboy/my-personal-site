@@ -28,7 +28,7 @@ export default function FrontendRoles() {
       <GlowingBorderBox>
         <div className="flex flex-col">
           <div className="font-bold text-[15px] mb-[10px] flex justify-between items-center">
-            <p>마크다운 채팅 스티일링</p>
+            <p>마크다운 채팅 스타일링</p>
           </div>
           <p className="font-medium text-[13px]">
             django-mardownx 라이브러리를 활용하여 채팅 입력값을 마크다운

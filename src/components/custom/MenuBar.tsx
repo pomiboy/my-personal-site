@@ -5,7 +5,7 @@ export default function MenuBar() {
     <div className="flex gap-[30px]">
       <MenuItem title="Projects" slug="projects" />
       <MenuItem title="Resume" slug="resume" />
-      <MenuItem title="About Me" slug="about-me" />
+      <MenuItem title="Activities" slug="activities" />
     </div>
   );
 }

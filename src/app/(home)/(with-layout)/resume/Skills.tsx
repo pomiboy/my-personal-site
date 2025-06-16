@@ -20,8 +20,8 @@ export default function Skills() {
         </div>
         <div className="flex-1 flex-col space-y-[5px] text-[14px]">
           <p className="text-[14px]">
-            Sentry, Styled-Components, Codemagic, PWA, Turbopack, Dexie, Stable
-            Diffusion, Flux, ComfyUI, socket.io
+            Sentry, Styled-Components, Codemagic, PWA, Turbopack, localForage,
+            Stable Diffusion, Flux, ComfyUI, socket.io
           </p>
         </div>
       </div>

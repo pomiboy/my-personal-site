@@ -1,9 +1,11 @@
+"use client";
+
 import { CheckSquareIcon } from "@phosphor-icons/react";
 import { ReactNode } from "react";
 
 export interface Props {
   children: string | ReactNode;
-  textClassName: string;
+  textClassName?: string;
 }
 
 export default function CPT({ children, textClassName }: Props) {
