@@ -22,8 +22,8 @@ export default function DesignRoles() {
             </div>
             <div className="font-medium text-[13px]">
               <BPT textClassName="font-medium text-[13px]">
-                여러 레퍼런스를 찾아보며 '공감'이라는 서비스의 핵심 소재를
-                효과적으로 나타낼 수 있는 톤앤매너를 결정하고자 함
+                여러 레퍼런스를 찾아보며 &apos;공감&apos;이라는 서비스의 핵심
+                소재를 효과적으로 나타낼 수 있는 톤앤매너를 결정하고자 함
               </BPT>
               <BPT textClassName="font-medium text-[13px]">
                 <LinkWithIcon
