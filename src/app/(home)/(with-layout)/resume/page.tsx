@@ -15,7 +15,7 @@ export default function ResumeScreen() {
   return (
     <div className="flex flex-col mt-[30px]">
       <div className="flex justify-end mb-[30px]">
-        <Link href="./docs/resume.pdf" target="_blank">
+        <Link href="./docs/이력서_박석류.pdf" target="_blank">
           <Button className="cursor-pointer">PDF로 내려받기</Button>
         </Link>
       </div>

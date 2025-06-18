@@ -43,6 +43,9 @@ export default function YourgirlsAi() {
           Query를 사용하여 API 연동 및 요청 상태관리 진행
         </BPT>
         <BPT>
+          WebSocket을 사용하여 AI 캐릭터와의 채팅 구현
+        </BPT>
+        <BPT>
           상태관리 : Context API와 Tanstack Query를 활용해 전역 상태 및 서버
           데이터 효율적으로 관리, Tanstack Query Devtools를 사용한 데이터 캐시
           최적화 진행

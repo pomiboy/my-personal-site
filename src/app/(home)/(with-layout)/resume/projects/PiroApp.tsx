@@ -1,12 +1,13 @@
 import BPT from "@/components/custom/BPT";
 import LinkWithIcon from "@/components/custom/LinkWIthIcon";
+import { Links } from "@/constants/links";
 
 export default function PiroApp() {
   return (
     <div className="flex">
       <div className="basis-[280px] flex flex-col">
         <p className="text-[13px] text-[#616161]">
-          피로니어 | 2023.10 ~ 2023.12
+          피로니어 | 2023.09 ~ 2023.10
         </p>
         <LinkWithIcon
           text="피로그래밍 공식 어플리케이션 개발"
@@ -47,8 +48,15 @@ export default function PiroApp() {
         </BPT>
         <BPT>
           <LinkWithIcon
+            text="AppStore 바로가기"
+            link={Links.PIROAPP_APPSTORE}
+            textClassName="text-[14px] font-medium"
+          />
+        </BPT>
+        <BPT>
+          <LinkWithIcon
             text="Github 바로가기"
-            link="https://github.com/Pironeer-APP"
+            link={Links.PIROAPP_GITHUB}
             textClassName="text-[14px] font-medium"
           />
         </BPT>
