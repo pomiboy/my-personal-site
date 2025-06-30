@@ -52,7 +52,7 @@
 ## 🔗 링크
 
 - **🌐 Live Link**: https://pomiboy.com
-- **👨‍💻 LinkedIn**: [Park Seokryu](https://www.linkedin.com/in/seokryu-park-417941301/)
+- **👨‍💻 LinkedIn**: [Park Seokryu](https://www.linkedin.com/in/seokryu-park/)
 - **🐱 GitHub**: [@pomiboy](https://github.com/pomiboy)
 - **📱 Instagram**: [@pomiryu_](https://www.instagram.com/pomiryu_/)
 

@@ -1,5 +1,5 @@
 export const Links = {
-  LINKEDIN: "https://www.linkedin.com/in/seokryu-park-417941301/",
+  LINKEDIN: "https://www.linkedin.com/in/seokryu-park/",
   GITHUB: "https://github.com/pomiboy",
   INSTAGRAM: "https://www.instagram.com/pomiryu_/",
   DITTO_APP_STORE: "https://apps.apple.com/app/id6738158392",
